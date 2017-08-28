@@ -1,0 +1,49 @@
+<aura:component >
+    <aura:attribute name="bingoList" type="List" />   
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}" />
+   
+    <div class="slds-grid slds-wrap">
+        <div class="slds-col slds-size--1-of-4"></div>
+
+        <div class="slds-col slds-size--2-of-4">
+                <table class="slds-table slds-table_bordered slds-table_cell-buffer slds-table_col-bordered slds-table_row-bordered  slds-no-row-hover">
+                        <thead>
+                            <tr class="slds-text-title_caps">
+                                <th scope="col" style="background-color: #1abc9c; color: white; font-size: 200%;">
+                                    <div class="slds-truncate">B</div>
+                                </th>
+                                <th scope="col" style="background-color: #2ecc71; color: white; font-size: 200%;">
+                                    <div class="slds-truncate">I</div>
+                                </th>
+                                <th scope="col" style="background-color: #3498db; color: white; font-size: 200%;">
+                                    <div class="slds-truncate">N</div>
+                                </th>
+                                <th scope="col" style="background-color: #9b59b6; color: white; font-size: 200%;">
+                                    <div class="slds-truncate">G</div>
+                                </th>
+                                <th scope="col" style="background-color: #e74c3c; color: white; font-size: 200%;">
+                                    <div class="slds-truncate">O</div>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <aura:iteration items="{!v.bingoList}" var="bingoSubList">
+                                <tr>
+                                    <aura:iteration items="{!bingoSubList}" var="elem">
+                                        <td style="white-space:pre-wrap; word-wrap:break-word;" onclick="{!c.selectCell}" data-hourIndex="{!elem}">
+                                            <div class="content"><p>{!elem}</p></div>
+                                        </td>
+                                    </aura:iteration>
+                                </tr>
+                            </aura:iteration>
+                            
+                        </tbody>
+                    </table>
+                    By Riadh
+        </div>
+
+        <div class="slds-col slds-size--1-of-4"></div>
+            
+    </div>
+    
+</aura:component>

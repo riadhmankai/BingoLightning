@@ -1,0 +1,29 @@
+.THIS th {
+    width: 20%;
+    text-align: center;
+    position: relative;
+}
+
+.THIS td {
+    white-space:pre;
+    background: #FEC606;
+}
+
+.THIS td:after {
+  content: '';
+  display: block;
+  margin-top: 100%;
+}
+.THIS td .content {
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  bottom: 0;
+  left: 5px;
+  right: 5px;
+}
+
+.THIS td:hover { 
+    background-color: #83D6DE;
+    cursor: pointer;
+}
