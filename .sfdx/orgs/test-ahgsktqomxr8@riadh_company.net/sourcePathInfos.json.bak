@@ -79,10 +79,10 @@
         {
             "sourcePath": "/home/riadh/Salesforce IDE/workspace/BingoApp/force-app/main/default/aura/BingoCmp/BingoCmp.cmp",
             "isDirectory": false,
-            "size": 2057,
-            "modifiedTime": 1503949956228,
-            "changeTime": 1503949956228,
-            "contentHash": "84f40bd889f25274e21a41c90a948bbf27e87c99",
+            "size": 2363,
+            "modifiedTime": 1503953543865,
+            "changeTime": 1503953543865,
+            "contentHash": "9a3d6edf3943740ca2a5966788c5541a7198c6bd",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -110,11 +110,11 @@
             "sourcePath": "/home/riadh/Salesforce IDE/workspace/BingoApp/force-app/main/default/aura/BingoCmp/BingoCmp.css",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 444,
-            "modifiedTime": 1503950018924,
-            "changeTime": 1503950018924,
+            "size": 355,
+            "modifiedTime": 1503953640277,
+            "changeTime": 1503953640277,
             "isWorkspace": false,
-            "contentHash": "e5d7ae20463f4ca178da62ae2bbc9edaa4d1daf8"
+            "contentHash": "2ce74ae3ba0e4fde9fb07ac94281e8b97acc04c7"
         }
     ],
     [
@@ -168,13 +168,12 @@
             "sourcePath": "/home/riadh/Salesforce IDE/workspace/BingoApp",
             "isDirectory": true,
             "size": 4096,
-            "modifiedTime": 1503838337373,
-            "changeTime": 1503838337373,
-            "contentHash": "14a1ee14f74bba9516adcb8e913f6889db2f844e",
+            "modifiedTime": 1503951747092,
+            "changeTime": 1503951747092,
+            "contentHash": "d264fef96c778c7ffe1cafa86488037de6674cee",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": true,
-            "isArtifactRoot": false
+            "isWorkspace": true
         }
     ]
 ]
