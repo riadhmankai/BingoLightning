@@ -2,9 +2,8 @@
     <aura:attribute name="bingoList" type="List" />   
     <aura:handler name="init" action="{!c.doInit}" value="{!this}" />
    
-    <div class="slds-grid slds-wrap">
-        
-        <div class="slds-col slds-size--3-of-4">
+    <div class="slds-grid slds-wrap">  
+        <div class="slds-col slds-size_1-of-1">
             <table class="slds-table slds-table_bordered slds-table_col-bordered slds-table_row-bordered slds-no-row-hover">
                 <thead>
                     <tr class="slds-text-title_caps">
@@ -29,23 +28,19 @@
                     <aura:iteration items="{!v.bingoList}" var="bingoSubList">
                         <tr>
                             <aura:iteration items="{!bingoSubList}" var="elem">
-                                <td onclick="{!c.selectCell}" data-hourIndex="{!elem}">
-                                    <div class="cellContent">
-                                        {!elem}
-                                    </div>
+                                <td onclick="{!c.selectCell}">
+                                    <div>{!elem}</div>
                                 </td>
                             </aura:iteration>
                         </tr>
                     </aura:iteration>
-                    
                 </tbody>
             </table>
-            By Riadh
         </div>
-
-        <div class="slds-col slds-size--1-of-4"></div>
-
-            
+        
+        <div class="slds-col slds-size_1-of-1">
+            <span>By Riadh</span>
+        </div>
+  
     </div>
-    
 </aura:component>
