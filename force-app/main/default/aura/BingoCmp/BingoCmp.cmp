@@ -25,11 +25,11 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <aura:iteration items="{!v.bingoList}" var="bingoSubList">
+                    <aura:iteration items="{!v.bingoList}" var="bingoSubList" indexVar="rowIndex">
                         <tr>
-                            <aura:iteration items="{!bingoSubList}" var="elem">
-                                <td onclick="{!c.selectCell}">
-                                    <div>{!elem}</div>
+                            <aura:iteration items="{!bingoSubList}" var="elem" indexVar="colIndex">
+                                <td onclick="{!c.selectCell}" data-rowIndex="{!rowIndex}" data-colIndex="{!colIndex}">
+                                    <div>{!elem.value}</div>
                                 </td>
                             </aura:iteration>
                         </tr>
@@ -38,7 +38,7 @@
             </table>
         </div>
         
-        <div class="slds-col slds-size_1-of-1">
+        <div class="slds-col slds-size_1-of-1 textCentered">
             <span>By Riadh</span>
         </div>
   

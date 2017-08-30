@@ -1,10 +1,9 @@
 ({
-	doInit : function(cmp, event, helper) {
-		helper.buildBingo(cmp);
+    doInit : function(cmp, event, helper) {
+        helper.buildBingoHlp(cmp);
     },
     
     selectCell : function(cmp, event, helper) {
-        console.log("test");
+        helper.selectCellHlp(cmp, event);
 	}
-    
 })
