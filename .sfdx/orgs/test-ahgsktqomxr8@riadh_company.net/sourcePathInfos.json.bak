@@ -63,7 +63,7 @@
             "sourcePath": "/home/riadh/Salesforce IDE/workspace/BingoApp/force-app/main/default/aura/BingoCmp",
             "isDirectory": true,
             "size": 4096,
-            "modifiedTime": 1503997616971,
+            "modifiedTime": 1504271768477,
             "changeTime": 1503948762333,
             "contentHash": "0727cb444736ec0c26685251acc5a240eedb10fd",
             "isMetadataFile": false,
@@ -78,9 +78,9 @@
             "sourcePath": "/home/riadh/Salesforce IDE/workspace/BingoApp",
             "isDirectory": true,
             "size": 4096,
-            "modifiedTime": 1504124627304,
-            "changeTime": 1504124627304,
-            "contentHash": "8abad6c468ca3b81eff17de6d25ceb7849bd561c",
+            "modifiedTime": 1504271780305,
+            "changeTime": 1504271780305,
+            "contentHash": "ab93c13855f79bd5e447c74da3970c223f10d4e7",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": true
@@ -145,10 +145,10 @@
             "sourcePath": "/home/riadh/Salesforce IDE/workspace/BingoApp/force-app/main/default/aura/BingoCmp/BingoCmpHelper.js",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 2895,
-            "modifiedTime": 1504266279367,
-            "changeTime": 1504266279367,
-            "contentHash": "e953d12afc56d5cc0754d189108087475db1860e"
+            "size": 3657,
+            "modifiedTime": 1504276882094,
+            "changeTime": 1504276882094,
+            "contentHash": "524ad61ff2c57b5f8918a717aaacedf9c3b3d0ce"
         }
     ],
     [
@@ -195,10 +195,10 @@
         {
             "sourcePath": "/home/riadh/Salesforce IDE/workspace/BingoApp/force-app/main/default/aura/BingoCmp/BingoCmp.cmp",
             "isDirectory": false,
-            "size": 2129,
-            "modifiedTime": 1504113236619,
-            "changeTime": 1504113236619,
-            "contentHash": "928986d33a82876a6056ecfffcc241840488050d",
+            "size": 2135,
+            "modifiedTime": 1504276712663,
+            "changeTime": 1504276712663,
+            "contentHash": "168a3cfcd15c3a7c9bff52834c1a92d1dfcc5c95",
             "isMetadataFile": false,
             "state": "u"
         }
