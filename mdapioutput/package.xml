@@ -5,5 +5,9 @@
     <members>BingoCmp</members>
     <members>TestBingoApp</members>
   </types>
+  <types>
+    <name>StaticResource</name>
+    <members>Bingo_Game_Over</members>
+  </types>
   <version>40.0</version>
 </Package>

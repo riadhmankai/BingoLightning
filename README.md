@@ -11,4 +11,5 @@ The game was developed using the new Salesforce DX (Developer Experience). I use
 
 ## How to Get This Game
 
-Since this is a Salesforce DX project, you can simply clone the repo and use it directly within your environment. You can then push to scratch org, or deploy to your owrn sandbox using your preferred deployment tool. Alternatively, you can deploy the "mdapioutput" folder using your preferred deployment tool or the force.com CLI.
+Since this is a Salesforce DX project, you can simply clone the repo and use it directly within your environment. You can then push it to scratch org, or deploy it to your owrn sandbox using your preferred deployment tool. 
+Alternatively, you can deploy the "mdapioutput" zip file using your preferred deployment tool or the force.com CLI.
