@@ -1,46 +1,60 @@
 <aura:component >
-    <aura:attribute name="bingoRows" type="List" />   
+    <aura:attribute name="bingoRows" type="List" />
+    <aura:attribute name="gameIsOver" type="boolean" default="false" />
     <aura:handler name="init" action="{!c.doInit}" value="{!this}" />
    
-    <div class="slds-grid slds-wrap">  
-        <div class="slds-col slds-size_1-of-1">
-            <table class="slds-table slds-table_bordered slds-table_col-bordered slds-table_row-bordered slds-no-row-hover">
-                <thead>
-                    <tr class="slds-text-title_caps">
-                        <th scope="col" style="background-color: #1abc9c;">
-                            <div class="slds-truncate">B</div>
-                        </th>
-                        <th scope="col" style="background-color: #2ecc71;">
-                            <div class="slds-truncate">I</div>
-                        </th>
-                        <th scope="col" style="background-color: #3498db;">
-                            <div class="slds-truncate">N</div>
-                        </th>
-                        <th scope="col" style="background-color: #9b59b6;">
-                            <div class="slds-truncate">G</div>
-                        </th>
-                        <th scope="col" style="background-color: #e74c3c;">
-                            <div class="slds-truncate">O</div>
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <aura:iteration items="{!v.bingoRows}" var="bingoRow" indexVar="rowIndex">
-                        <tr>
-                            <aura:iteration items="{!bingoRow}" var="bingoCell" indexVar="colIndex">
-                                <td onclick="{!c.selectCell}" data-rowIndex="{!rowIndex}" data-colIndex="{!colIndex}">
-                                    <div>{!bingoCell.cellValue}</div>
-                                </td>
-                            </aura:iteration>
+    <div class="slds-grid slds-wrap">
+        <aura:if isTrue="{!v.gameIsOver == false}">
+            
+            <div class="slds-col slds-size_1-of-1">
+                <table class="slds-table slds-table_bordered slds-table_col-bordered slds-table_row-bordered slds-no-row-hover">
+                    <thead>
+                        <tr class="slds-text-title_caps">
+                            <th scope="col" style="background-color: #1abc9c;">
+                                <div class="slds-truncate">B</div>
+                            </th>
+                            <th scope="col" style="background-color: #2ecc71;">
+                                <div class="slds-truncate">I</div>
+                            </th>
+                            <th scope="col" style="background-color: #3498db;">
+                                <div class="slds-truncate">N</div>
+                            </th>
+                            <th scope="col" style="background-color: #9b59b6;">
+                                <div class="slds-truncate">G</div>
+                            </th>
+                            <th scope="col" style="background-color: #e74c3c;">
+                                <div class="slds-truncate">O</div>
+                            </th>
                         </tr>
-                    </aura:iteration>
-                </tbody>
-            </table>
-        </div>
-        
+                    </thead>
+                    <tbody>
+                        <aura:iteration items="{!v.bingoRows}" var="bingoRow" indexVar="rowIndex">
+                            <tr>
+                                <aura:iteration items="{!bingoRow}" var="bingoCell" indexVar="colIndex">
+                                    <td onclick="{!c.selectCell}" data-rowIndex="{!rowIndex}" data-colIndex="{!colIndex}">
+                                        <div>{!bingoCell.cellValue}</div>
+                                    </td>
+                                </aura:iteration>
+                            </tr>
+                        </aura:iteration>
+                    </tbody>
+                </table>
+            </div>
+
+            <aura:set attribute="else">
+                <div class="slds-col slds-size_1-of-1 textCentered">
+                    <img src="{!$Resource.Bingo_Game_Over}"/>
+                </div>
+                <div class="slds-col slds-size_1-of-1 textCentered">
+                    <lightning:button variant="brand" label="Play Again" onclick="{!c.playAgain}" />
+                </div>
+            </aura:set>
+        </aura:if>
+
         <div class="slds-col slds-size_1-of-1 textCentered">
             <span>By Riadh</span>
         </div>
-  
+
     </div>
+        
 </aura:component>

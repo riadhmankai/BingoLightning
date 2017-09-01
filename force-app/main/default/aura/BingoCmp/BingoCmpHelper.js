@@ -79,14 +79,15 @@
 
             if (bingoRowExists || bingoColExists) {
                 console.log("bigno row or col !");
-                // Init the bingo board
                 this.buildBingoHlp(cmp);
+                cmp.set("v.gameIsOver", true);
                 return;
             }
         }
         if (bingoDiagonalExists || bingoInverseDiagonalExists) {
             console.log("bigno diag !");
             this.buildBingoHlp(cmp);
+            cmp.set("v.gameIsOver", true);
             return;
         }
     }

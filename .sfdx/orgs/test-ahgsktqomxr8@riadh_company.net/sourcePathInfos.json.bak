@@ -35,13 +35,11 @@
             "sourcePath": "/home/riadh/Salesforce IDE/workspace/BingoApp/force-app/main/default",
             "isDirectory": true,
             "size": 4096,
-            "modifiedTime": 1503838240660,
-            "changeTime": 1503838240660,
-            "contentHash": "2c2a89c1c45d2977cfce538e475902f5520f4382",
+            "modifiedTime": 1504280994153,
+            "changeTime": 1504280994153,
+            "contentHash": "156bbc6b81bd21c2cc4d7f6928839c41ba346793",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "state": "u"
         }
     ],
     [
@@ -78,7 +76,7 @@
             "sourcePath": "/home/riadh/Salesforce IDE/workspace/BingoApp",
             "isDirectory": true,
             "size": 4096,
-            "modifiedTime": 1504271780305,
+            "modifiedTime": 1504279185572,
             "changeTime": 1504271780305,
             "contentHash": "ab93c13855f79bd5e447c74da3970c223f10d4e7",
             "isMetadataFile": false,
@@ -141,14 +139,14 @@
     [
         "/home/riadh/Salesforce IDE/workspace/BingoApp/force-app/main/default/aura/BingoCmp/BingoCmpHelper.js",
         {
-            "state": "u",
             "sourcePath": "/home/riadh/Salesforce IDE/workspace/BingoApp/force-app/main/default/aura/BingoCmp/BingoCmpHelper.js",
             "isDirectory": false,
+            "size": 3918,
+            "modifiedTime": 1504281772968,
+            "changeTime": 1504281772968,
+            "contentHash": "0f44d58b08891e8e79890e97b1982b15e6f650da",
             "isMetadataFile": false,
-            "size": 3900,
-            "modifiedTime": 1504277596902,
-            "changeTime": 1504277596902,
-            "contentHash": "6a73230ffbf32b3187bac19f69ca512c0e061b01"
+            "state": "u"
         }
     ],
     [
@@ -169,10 +167,10 @@
         {
             "sourcePath": "/home/riadh/Salesforce IDE/workspace/BingoApp/force-app/main/default/aura/BingoCmp/BingoCmpController.js",
             "isDirectory": false,
-            "size": 189,
-            "modifiedTime": 1504103892122,
-            "changeTime": 1504103892122,
-            "contentHash": "8c60253ee406de3dc13b71bd713b4ca942fda4a5",
+            "size": 291,
+            "modifiedTime": 1504281752008,
+            "changeTime": 1504281752008,
+            "contentHash": "050a52d94e30e583dff14a3c1a0cdb40f74ffb28",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -193,12 +191,51 @@
     [
         "/home/riadh/Salesforce IDE/workspace/BingoApp/force-app/main/default/aura/BingoCmp/BingoCmp.cmp",
         {
+            "state": "u",
             "sourcePath": "/home/riadh/Salesforce IDE/workspace/BingoApp/force-app/main/default/aura/BingoCmp/BingoCmp.cmp",
             "isDirectory": false,
-            "size": 2135,
-            "modifiedTime": 1504276712663,
-            "changeTime": 1504276712663,
-            "contentHash": "168a3cfcd15c3a7c9bff52834c1a92d1dfcc5c95",
+            "isMetadataFile": false,
+            "size": 2823,
+            "modifiedTime": 1504281960782,
+            "changeTime": 1504281960782,
+            "contentHash": "9bdbb62d45775800bc1eeea688437ce71ab9a5f9"
+        }
+    ],
+    [
+        "/home/riadh/Salesforce IDE/workspace/BingoApp/force-app/main/default/staticresources/Bingo.resource-meta.xml",
+        {
+            "sourcePath": "/home/riadh/Salesforce IDE/workspace/BingoApp/force-app/main/default/staticresources/Bingo.resource-meta.xml",
+            "isDirectory": false,
+            "size": 203,
+            "modifiedTime": 1504280994157,
+            "changeTime": 1504280994157,
+            "contentHash": "8f4e4ea531152330068e2049b8a042b6aa3381ea",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/home/riadh/Salesforce IDE/workspace/BingoApp/force-app/main/default/staticresources/Bingo.resource",
+        {
+            "sourcePath": "/home/riadh/Salesforce IDE/workspace/BingoApp/force-app/main/default/staticresources/Bingo.resource",
+            "isDirectory": false,
+            "size": 11757,
+            "modifiedTime": 1504280994157,
+            "changeTime": 1504280994157,
+            "contentHash": "865cc485720972ff3700878705d00525ae015000",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/home/riadh/Salesforce IDE/workspace/BingoApp/force-app/main/default/staticresources",
+        {
+            "sourcePath": "/home/riadh/Salesforce IDE/workspace/BingoApp/force-app/main/default/staticresources",
+            "isDirectory": true,
+            "size": 4096,
+            "modifiedTime": 1504280994157,
+            "changeTime": 1504280994157,
+            "contentHash": "68919ded975577d9504d8665bd675c5f53a1a88e",
             "isMetadataFile": false,
             "state": "u"
         }
