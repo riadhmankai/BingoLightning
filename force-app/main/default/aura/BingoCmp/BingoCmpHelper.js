@@ -8,7 +8,7 @@
             ["(Someone is eating or brushing her teeth)", "Sorry, come again!", "I think there is a bug", "Sorry, I am having a connection issues", "Can you go on Michelin Skype?"]];
 
         // Init all cells to "Unselected"
-        this.initBingoBoard(lst_bingoRows);
+        this.initBingoBoard(cmp, lst_bingoRows);
     },
 
     selectCellHlp : function(cmp, event) {
@@ -31,7 +31,7 @@
         this.checkBingo(cmp);
     },
 
-    initBingoBoard: function(p_bingoRows) {
+    initBingoBoard: function(cmp, p_bingoRows) {
         let lst_bingoWrappers = [];
         let bingoSize = p_bingoRows.length;
 
@@ -80,16 +80,15 @@
             if (bingoRowExists || bingoColExists) {
                 console.log("bigno row or col !");
                 // Init the bingo board
-                this.initBingoBoard(lst_bingoRows);
+                this.buildBingoHlp(cmp);
                 return;
             }
         }
         if (bingoDiagonalExists || bingoInverseDiagonalExists) {
             console.log("bigno diag !");
-            this.initBingoBoard(lst_bingoRows);
+            this.buildBingoHlp(cmp);
             return;
         }
-
     }
 
 })
