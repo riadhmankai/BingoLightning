@@ -13,3 +13,5 @@ The game was developed using the new Salesforce DX (Developer Experience). I use
 
 Since this is a Salesforce DX project, you can simply clone the repo and use it directly within your environment. You can then push it to scratch org, or deploy it to your owrn sandbox using your preferred deployment tool. 
 Alternatively, you can deploy the "mdapioutput" zip file using your preferred deployment tool or the force.com CLI.
+
+![bingo lightning game](https://github.com/riadhmankai/BingoLightning/blob/master/img/BingoScreenshot.png)
