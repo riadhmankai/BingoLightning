@@ -78,9 +78,9 @@
             "sourcePath": "/home/riadh/Salesforce IDE/workspace/BingoApp",
             "isDirectory": true,
             "size": 4096,
-            "modifiedTime": 1503951747092,
-            "changeTime": 1503951747092,
-            "contentHash": "d264fef96c778c7ffe1cafa86488037de6674cee",
+            "modifiedTime": 1504124627304,
+            "changeTime": 1504124627304,
+            "contentHash": "8abad6c468ca3b81eff17de6d25ceb7849bd561c",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": true
@@ -141,14 +141,14 @@
     [
         "/home/riadh/Salesforce IDE/workspace/BingoApp/force-app/main/default/aura/BingoCmp/BingoCmpHelper.js",
         {
+            "state": "u",
             "sourcePath": "/home/riadh/Salesforce IDE/workspace/BingoApp/force-app/main/default/aura/BingoCmp/BingoCmpHelper.js",
             "isDirectory": false,
-            "size": 2307,
-            "modifiedTime": 1504113157294,
-            "changeTime": 1504113157294,
-            "contentHash": "6abeec493a47db969fdf0611fc27ebca3c81f73a",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 2734,
+            "modifiedTime": 1504266880904,
+            "changeTime": 1504266880904,
+            "contentHash": "28deaf47845a60ad872d38f9e17c80f82c6b9bfb"
         }
     ],
     [
@@ -193,14 +193,14 @@
     [
         "/home/riadh/Salesforce IDE/workspace/BingoApp/force-app/main/default/aura/BingoCmp/BingoCmp.cmp",
         {
-            "state": "u",
             "sourcePath": "/home/riadh/Salesforce IDE/workspace/BingoApp/force-app/main/default/aura/BingoCmp/BingoCmp.cmp",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2129,
             "modifiedTime": 1504113236619,
             "changeTime": 1504113236619,
-            "contentHash": "928986d33a82876a6056ecfffcc241840488050d"
+            "contentHash": "928986d33a82876a6056ecfffcc241840488050d",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ]
 ]

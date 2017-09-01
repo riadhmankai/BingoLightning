@@ -1,0 +1,39 @@
+.THIS th {
+    width: 20% !important;
+    text-align: center;
+    color: white; 
+    font-size: 200%;
+}
+
+.THIS td {
+    width:20vw; /* 20% of the viewport width */
+    height: 8vw;
+    background: #FEC606;
+    text-align: center;
+    
+    /* Line breaking (words wrapping) */
+    vertical-align: middle;
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word;
+    white-space: pre-wrap !IMPORTANT; 
+    /* / Line breaking (words wrapping) */
+}
+
+.THIS td:hover { 
+    background-color: #83D6DE;
+    cursor: pointer;
+}
+
+.THIS table {
+    border-collapse:collapse; 
+    table-layout:fixed;
+	width: 100%;
+}
+
+.THIS .textCentered {
+    text-align: center;
+}
+
+.THIS .selectedBg {
+    background-color: blue;
+}
